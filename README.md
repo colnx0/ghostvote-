@@ -1,31 +1,33 @@
 # GhostVote 👻
 
-GhostVote is a private voting app built on Solana.
+GhostVote is a privacy-first voting dApp built on Solana.
 
 ## 🔗 Live App
 https://ghost-vote-flow.base44.app
 
-## 💡 What it does
+## What it does
 - Create polls
 - Vote anonymously
-- See results without revealing identity
+- View results without revealing voter identity
 
-## 🔐 Privacy
-Votes are hidden and only total results are shown.
+## Privacy
+Votes are never linked to wallet identities. Only aggregated results are visible, ensuring both privacy and transparency.
 
 ## Ephemeral Rollup Integration
+GhostVote implements an Ephemeral Rollup-inspired architecture:
 
-GhostVote uses an Ephemeral Rollup-inspired architecture where votes are:
+- Votes are first collected in a temporary off-chain state  
+- Transactions are batched before being finalized  
+- Individual voter data is never exposed  
 
-1. Collected in a temporary state
-2. Batched before finalization
-3. Processed without exposing individual identities
+This approach mirrors Private Ephemeral Rollups by enabling private user interactions while maintaining verifiable public outcomes.
 
-This mirrors the behavior of Private Ephemeral Rollups by ensuring that user actions remain private until aggregated results are published.
+## Built with
+- Base44 (frontend + logic)
+- Solana wallet integration
 
-## 🛠 Built with
-- Base44
-- Solana wallet
+## 🎯 Why this matters
+GhostVote demonstrates how privacy-preserving governance can be achieved on-chain without sacrificing transparency, a key requirement for the future of Web3 applications.
 
-## 🎥 Demo
-(will add video link here)
+## Demo
+(Add your demo video link here)
