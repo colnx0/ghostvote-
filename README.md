@@ -26,7 +26,7 @@ This approach mirrors Private Ephemeral Rollups by enabling private user interac
 - Base44 (frontend + logic)
 - Solana wallet integration
 
-## 🎯 Why this matters
+## Why this matters
 GhostVote demonstrates how privacy-preserving governance can be achieved on-chain without sacrificing transparency, a key requirement for the future of Web3 applications.
 
 ## Demo
