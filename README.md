@@ -30,4 +30,4 @@ This approach mirrors Private Ephemeral Rollups by enabling private user interac
 GhostVote demonstrates how privacy-preserving governance can be achieved on-chain without sacrificing transparency, a key requirement for the future of Web3 applications.
 
 ## Demo
-https://youtube.com/shorts/MjnvBuCiDkI?si=wNn0mZcodNMHCh8T
+https://youtube.com/shorts/hTqrPqg8JUU?si=JAQoUBiyo22aFohu
